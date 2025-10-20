@@ -52,6 +52,7 @@ print(flag)
 
 Running this script we get the following flag:
 
-![[BasedBrunner.png]]
+![](BasedBrunner.png)
+
 ```
 brunner{1s_b4s3d}
