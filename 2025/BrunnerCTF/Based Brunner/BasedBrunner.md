@@ -23,9 +23,9 @@ We were given the python code that was used to encode the flag (encode.py). What
 Each encode step does the following:
 - Take every character, turn it into its number (ord), write that number in base b and put a space in between the results 
 So after a base-b pass we get: 
-$$
+$$\begin{align*}
 \text{<number-in-base-b> <number-in-base-b> <number-in-base-b> } \dots
-$$
+\end{align*}$$
 
 To undo it we are doing the reverse for the same base:
 - Split on spaces to get the tokens
@@ -52,6 +52,6 @@ print(flag)
 
 Running this script we get the following flag:
 
-![[Pasted image 20251012181012.png]]
+![[BasedBrunner.png]]
 ```
 brunner{1s_b4s3d}
